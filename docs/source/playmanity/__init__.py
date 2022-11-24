@@ -1,6 +1,8 @@
 import asyncio
-from typing import NamedTuple, Literal
-
+try:
+    from typing import NamedTuple, Literal
+except ImportError:
+    from typing_extensions import NamedTuple, Literal
 import requests
 from . import accounts
 
