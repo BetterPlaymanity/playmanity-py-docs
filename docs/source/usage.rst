@@ -6,29 +6,35 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use playmanity, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   $ pip install playmanity
 
-Creating recipes
+Connecting bot
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+To create our bot instance we use ``playmanity.Bot()`` class:
 
-.. autofunction:: lumache.get_random_ingredients
+.. autofunction:: playmanity.Bot()
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+This class will be used as our account.
 
-.. autoexception:: lumache.InvalidKindError
+.. autoexception:: playmanity.InvalidKindError
+
+Connecting bot
+----------------
+
+To run and get our bot ``token`` we should use ``run()`` method with our bot instance
 
 For example:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+.. code-block:: code
+
+   import playmanity
+
+   clientinit = playmanity.accounts.Bot("Login","Password")
+   callback = clientinit.run()
+   client = callback
 
