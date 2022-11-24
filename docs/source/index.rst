@@ -2,7 +2,7 @@ Welcome to Playmanity.py documentation!
 ===================================
 
 **Playmanity.py** is a Python library for using and creating api scripts & programs with integration of playmanity services.
-We use `official playmanity api <https://app.playmanity.com/>`
+We use `official playmanity api <https://app.playmanity.com/>`__
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
