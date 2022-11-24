@@ -13,7 +13,10 @@ version = '0.1.0'
 
 extensions = [
     'playmanity',
-    'playmanity.accounts'
+    'playmanity.accounts',
+    'typing',
+    'asyncio',
+    'requests'
 ]
 
 interplaymanity_mapping = {
