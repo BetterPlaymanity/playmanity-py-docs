@@ -12,7 +12,8 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
-    'playmanity.accounts',
+    'playmanity',
+    'playmanity.accounts'
 ]
 
 interplaymanity_mapping = {
