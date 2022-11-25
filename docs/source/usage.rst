@@ -23,7 +23,7 @@ This class will be used as our account.
 
 .. autoexception:: playmanity.InvalidKindError
 
-Connecting bot
+Running bot
 ----------------
 
 To run and get our bot ``token`` we should use ``run()`` method with our bot instance

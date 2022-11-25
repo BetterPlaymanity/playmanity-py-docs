@@ -1,7 +1,0 @@
-[build-system]
-requires = ["asyncio", "requests"]
-build-backend = "playmanity.buildapi"
-
-[project]
-name = "Playmanity.py"
-authors = [{name = "TheLite", email = "thelitestudio0@gmail.com"}]
