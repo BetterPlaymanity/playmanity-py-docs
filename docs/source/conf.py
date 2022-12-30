@@ -12,7 +12,6 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
-    'playmanity',
     'asyncio',
     'requests'
 ]
