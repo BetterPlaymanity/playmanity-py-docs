@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Playmanity.py'
-copyright = '2022, BetterPlaymanity'
+copyright = '2023, BetterPlaymanity'
 author = 'TheLite'
 
 release = '0.1'
@@ -13,8 +13,6 @@ version = '0.1.0'
 
 extensions = [
     'playmanity',
-    'playmanity.accounts',
-    'typing',
     'asyncio',
     'requests'
 ]

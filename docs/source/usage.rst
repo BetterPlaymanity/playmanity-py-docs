@@ -12,29 +12,32 @@ To use playmanity, first install it using pip:
 
    $ pip install playmanity
 
-Connecting bot
+Linking account
 ----------------
 
-To create our bot instance we use ``playmanity.Bot()`` class:
+To link our account we use ``playmanity.account()`` class:
 
-.. autofunction:: playmanity.Bot()
+.. autofunction:: playmanity.account()
 
-This class will be used as our account.
+This class will be used as our primary account.
 
-.. autoexception:: playmanity.InvalidKindError
 
 Running bot
 ----------------
 
-To run and get our bot ``token`` we should use ``run()`` method with our bot instance
+To link and run our account we should use ``run()`` method with our ``playmanity.account()`` instance
 
 For example:
 
-.. code-block:: code
+.. code-block:: python
 
+   account = playmanity.account("Nickname","Password")
+   account.run()
+
+Overall we should get:
+
+.. code-block:: python
    import playmanity
 
-   clientinit = playmanity.accounts.Bot("Login","Password")
-   callback = clientinit.run()
-   client = callback
-
+   account = playmanity.account("Nickname","Password")
+   account.run()
