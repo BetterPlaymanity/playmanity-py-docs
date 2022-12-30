@@ -33,11 +33,3 @@ For example:
 
    account = playmanity.account("Nickname","Password")
    account.run()
-
-Overall we should get:
-
-.. code-block:: python
-   import playmanity
-
-   account = playmanity.account("Nickname","Password")
-   account.run()
